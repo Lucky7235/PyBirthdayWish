@@ -1,16 +1,46 @@
-# Specify which file (without .py extension) in the arts folder should be used
-artFile = "example"
-# Speed of art
-speed = 0.005
-# Print code in the beginning
-codePrint = False
-codingSpeed = 0.01
-codeColor='red'
-# Audio
-playAudio = True
-audio = 'HappyBirthday.mp3'
-# Random color is choosen from the list
-color = ['red','green','yellow','blue','magenta','cyan','white']
-# Change the keys of the dict to change the color codes
-# If you change the color codes for blink, remove blink(none) and random, you have to change it in pprint() function of PyBirthdayWish.py too.
-colorCodes = {'①':'grey','②':'red','③':'green','④':'yellow','⑤':'blue','⑥':'magenta','⑦':'cyan','⑧':'white','⑨':'blink','⑩':'none','®':'random'}
+#def create_birthday_message_with_art(Aparna):
+    cake = (
+        "   iiii\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        " |~~~|\n"
+        "  \\___/\n"
+    )
+
+    balloons = (
+        "   / \\     / \\\n"
+        "  (   )   (   )\n"
+        "   \\_/_    \\_/_\n"
+    )
+
+    message = (
+        f"🎉 Happy Birthday, {Bhais}! 🎂\n"
+        f"{cake}\n"
+        f"{balloons}\n"
+        f"🌟 Wishing you a day filled with joy, and {age} candles to blow out! 🎈\n"
+        f"🎁 May your year be as sweet as this virtual cake! 🍰\n"
+        "🎈 Enjoy every moment of your special day! 🥳"
+    )
+    return message
+
+# Example usage
+recipient_name = "Alex"
+recipient_age = 30
+birthday_message = create_birthday_message_with_art(recipient_name, recipient_age)
+print( my best bestie happy birthday)
